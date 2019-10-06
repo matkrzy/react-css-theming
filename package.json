@@ -1,0 +1,46 @@
+{
+  "name": "react-css-theming",
+  "version": "1.0.0",
+  "description": "A library that allows you to make your application themeable based on css variables in an easy way without additional components and wrappers",
+  "main": "lib/index.js",
+  "repository": "https://github.com/matkrzy/react-css-theming.git",
+  "author": "Mateusz Krzyżanowski <matkrzy94@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn clean && tsc --module CommonJS",
+    "start": "tsc -p . -w",
+    "test": "jest",
+    "clean": "rm -rf lib"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.3.0",
+    "@types/jest": "^24.0.17",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "@typescript-eslint/eslint-plugin": "1.x",
+    "@typescript-eslint/parser": "1.x",
+    "babel-eslint": "10.x",
+    "eslint": "6.x",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-flowtype": "3.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.3"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}

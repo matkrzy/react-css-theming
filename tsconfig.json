@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["es2015", "es2017", "dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./lib",
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": true,
+    "target": "es5",
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "types": ["node", "jest"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
