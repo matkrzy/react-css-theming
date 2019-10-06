@@ -2,6 +2,12 @@
   "name": "react-css-theming",
   "version": "1.0.0",
   "description": "A library that allows you to make your application themeable based on css variables in an easy way without additional components and wrappers",
+  "keywords": [
+    "react",
+    "themes",
+    "css",
+    "theming"
+  ],
   "main": "lib/index.js",
   "repository": "https://github.com/matkrzy/react-css-theming.git",
   "author": "Mateusz Krzyżanowski <matkrzy94@gmail.com>",
